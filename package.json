@@ -1,0 +1,19 @@
+{
+  "name": "wave-function-collapse-mx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/midi": "^2.0.0",
+    "@types/node": "^18.6.2"
+  },
+  "dependencies": {
+    "midi": "^2.0.0"
+  }
+}
