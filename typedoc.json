@@ -1,6 +1,10 @@
 {
   "$schema": "https://typedoc.org/schema.json",
-  "entryPoints": ["./src/index.ts"],
+  "entryPoints": ["src"],
+  "exclude": ["src/midi-player.ts", "node_modules/**/*"],
   "out": ".wiki",
-  "theme": "github-wiki"
+  "cleanOutputDir": true,
+  "name": "lumidi",
+  "gitRevision": "master",
+  "sourceLinkTemplate": "https://gitea.oscarlundberg.com/oscarlundberg/lumidi/src/branch/{gitRevision}/{path}#L{line}"
 }
