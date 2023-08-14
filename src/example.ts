@@ -1,5 +1,5 @@
 import { MidiFile, MIDIFileFormat } from './midi-file';
-import { MIDIPlayer } from "./midi-player";
+import { MIDIPlayer } from "./player/midi-player";
 import { NoteOff, NoteOn } from './events/channel-events';
 import { Byte, Nybble } from './helpers';
 import { generateFile } from './midi-convert';
